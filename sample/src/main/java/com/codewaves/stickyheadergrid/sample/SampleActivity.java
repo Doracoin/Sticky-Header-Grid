@@ -31,8 +31,7 @@ public class SampleActivity extends AppCompatActivity {
          @Override
          public int getSpanSize(int section, int position) {
             switch (section) {
-               case 0:
-                  return 3;
+               case 0:return 3;
                case 1:
                   return 1;
                case 2:
